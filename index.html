@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Direction to College — NGP, Coimbatore</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏫 Direction to College</h1>
+            <p class="subtitle">NGP Campus, Coimbatore</p>
+        </header>
+
+        <div class="direction-card" id="collegeSteps">
+            <!-- Steps will be loaded from config -->
+        </div>
+
+        <div class="map-container">
+            <div id="collegeMap"></div>
+        </div>
+
+        <div class="action-area">
+            <a href="https://maps.app.goo.gl/mF9q4ZmNAerCGWdh7?g_st=ac" target="_blank" class="btn-maps">
+                📍 Open in Google Maps
+            </a>
+            <a href="conference-hall.html" class="btn-next">
+                Next: Way to Conference Hall →
+            </a>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="js/config.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
